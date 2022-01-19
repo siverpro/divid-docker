@@ -5,10 +5,9 @@ dockerized divi daemon
 Create a divi-data folder and create a basic divi.conf file
 (for example from here https://wiki.diviproject.org/#remote-node-configuration)
 
-Download this dockerfile.
 Build the image:
 
-$ docker build -t divi-daemon .
+$ docker build -t divi-daemon https://github.com/siverpro/divid-docker
 
 Run the image:
 
