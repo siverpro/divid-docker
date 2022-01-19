@@ -12,7 +12,7 @@ $ docker build -t divi-daemon .
 
 Run the image:
 
-$ docker run -d --rm -v /path/to/local/datadir:/divi --name divi-daemon divi-daemon
+$ docker run -d --rm -v /path/to/local/datadir:/divi -p 51472:51472/tcp --name divi-daemon divi-daemon
 
 Your container should start. You can interact with the cli using the following command:
 
