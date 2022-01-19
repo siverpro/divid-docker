@@ -15,4 +15,4 @@ $ docker run -d -v /path/to/local/datadir:/divi -p 51472:51472/tcp --name divi-d
 
 Your container should start. You can interact with the cli using the following command:
 
-$ docker exex -it divi-daemon divi-cli "\<command\>"
+$ docker exex -it divi-daemon divi-cli \<command\>
