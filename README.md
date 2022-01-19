@@ -1,7 +1,7 @@
 # divid-docker
 dockerized divi daemon
 
-#Usage:
+# Usage:
 Create a divi-data folder and create a basic divi.conf file
 (for example from here https://wiki.diviproject.org/#remote-node-configuration)
 
