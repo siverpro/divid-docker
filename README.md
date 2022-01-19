@@ -9,7 +9,7 @@ Build the image:
 
 $ docker build -t divi-daemon https://raw.githubusercontent.com/siverpro/divid-docker/main/Dockerfile
 
-Run the image:
+Start the container:
 
 $ docker run -d -v /path/to/local/datadir:/divi -p 51472:51472/tcp --name divi-daemon --restart unless-stopped divi-daemon
 
