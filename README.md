@@ -7,7 +7,7 @@ Create a divi-data folder and create a basic divi.conf file
 
 Build the image:
 
-$ docker build -t divi-daemon https://github.com/siverpro/divid-docker
+$ docker build -t divi-daemon https://raw.githubusercontent.com/siverpro/divid-docker/main/Dockerfile
 
 Run the image:
 
